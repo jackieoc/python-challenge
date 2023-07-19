@@ -30,7 +30,7 @@ with open(pyPollcsv) as file:
                 charlesVote += 1
             elif candidateName == "Diana DeGette":
                 dianaVote +=1
-            elif candidateName == "Raymon Anthony Doane":
+            elif candidateName == "Raymond Anthony Doane":
                 raymondVote += 1
             else:
                 print(f"the came of the candidate {candidateName} is unknown")
