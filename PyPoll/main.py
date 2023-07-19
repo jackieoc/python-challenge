@@ -32,9 +32,7 @@ with open(pyPollcsv) as file:
                 dianaVote +=1
             elif candidateName == "Raymond Anthony Doane":
                 raymondVote += 1
-            else:
-                print(f"the came of the candidate {candidateName} is unknown")
-
+           
     #calculate percentage
     charlesPer = (charlesVote/totalVotes)*100
     dianaPer = (dianaVote/totalVotes)*100
